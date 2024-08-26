@@ -1,0 +1,120 @@
+table{
+    border:0.1px solid #ccc;
+    width:100%;
+    height:fit-content;
+    padding:10px;
+    background:transparent;
+    border-radius:0px;
+    margin-left: 1pc;
+    width: 97%;
+    border-collapse: collapse;
+    
+
+}
+table thead{
+    border:none;
+    height:30px;
+    background:transparent;
+    border-radius:6px;
+}
+table thead td{
+    padding:7px;
+    font-weight: 100;
+    font-size: 1.2pc;
+    border: black solid 1px;
+    border-radius:0px;
+    background:transparent;
+}
+table td{
+    background:transparent;
+    height:20px;
+    padding:4px;
+    border-radius:0px;
+}
+#action{
+    display: flex;
+    justify-content: space-between;
+}
+#up{
+    width:80%;
+    height:30px;
+    padding:6px;
+    border-radius:4px;
+    background:green;
+    color:white;
+    font-family:'loto',sans-serif;
+    font-size:10px;
+    cursor:pointer;
+}
+#del{
+    width:80%;
+    height:30px;
+    padding:6px;
+    border-radius:4px;
+    background: red;
+    color:white;
+    font-family:'loto',sans-serif;
+    font-size:10px;
+    cursor:pointer;
+}
+button{
+    outline:none;
+    border:none;
+}
+.act{
+    color: white;
+    padding:0.1pc;
+    cursor: pointer;
+    align-items: center;
+    align-items: center;
+    background-color: blue;
+    
+}
+.exp{
+    display:flex;
+    border: none;
+    padding-bottom: 0.5pc;
+    height:2pc;
+    width:18pc;
+    
+    
+}.exp button{
+    width:4pc;
+    margin-left:0.4pc;
+    border-radius: 0.4pc;
+    color: white;
+    font-size: 0.9pc;
+    height: 2pc;
+    background-color: rgba(28, 17, 150, 0.758);
+}
+.exp button:hover{
+    background-color: rgba(43, 33, 158, 0.598);
+}
+.report{
+    width: 30%;
+    
+    float: left;
+    overflow-y: scroll;
+}
+
+.report input,select{
+    width:10pc;
+}
+.report form p  input[type=submit]{
+    width: 15%;
+}
+.heads{
+    position: relative;
+    left: 40px;
+}
+.add{
+    text-decoration: none;
+    background-color: rgb(16, 17, 18);
+    width: 150px;
+    padding: 5px 5px;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;;
+}
